@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Coding-Bootcamp/static/css/main.5b1ccedc.css",
+    "main.js": "/Coding-Bootcamp/static/js/main.6d0f1a60.js",
+    "static/js/787.97082677.chunk.js": "/Coding-Bootcamp/static/js/787.97082677.chunk.js",
+    "static/media/image-john.jpg": "/Coding-Bootcamp/static/media/image-john.5253a557aa7d00d8466f.jpg",
+    "static/media/image-tanya.jpg": "/Coding-Bootcamp/static/media/image-tanya.f54c06576a4cdc261099.jpg",
+    "static/media/pattern-bg.svg": "/Coding-Bootcamp/static/media/pattern-bg.7f46e67e7d84324800ef100ff8da5693.svg",
+    "index.html": "/Coding-Bootcamp/index.html",
+    "static/media/pattern-quotes.svg": "/Coding-Bootcamp/static/media/pattern-quotes.219bd182b41259a321a86d8fc4bffea4.svg",
+    "static/media/pattern-curve.svg": "/Coding-Bootcamp/static/media/pattern-curve.05698a95740cb41f8c3c2cedd8ab273a.svg",
+    "static/media/icon-prev.svg": "/Coding-Bootcamp/static/media/icon-prev.f72bba8e1f8b7df258c2f5d918944b16.svg",
+    "static/media/icon-next.svg": "/Coding-Bootcamp/static/media/icon-next.0aa189dbfa66ca43c7a2b7c1915624e0.svg",
+    "main.5b1ccedc.css.map": "/Coding-Bootcamp/static/css/main.5b1ccedc.css.map",
+    "main.6d0f1a60.js.map": "/Coding-Bootcamp/static/js/main.6d0f1a60.js.map",
+    "787.97082677.chunk.js.map": "/Coding-Bootcamp/static/js/787.97082677.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b1ccedc.css",
+    "static/js/main.6d0f1a60.js"
+  ]
+}
