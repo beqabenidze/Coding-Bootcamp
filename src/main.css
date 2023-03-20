@@ -1,0 +1,110 @@
+.card {
+  margin-top: max(40px, 2vw);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+}
+.card .flex-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.card .flex-images .bg-image {
+  width: 80%;
+  height: auto;
+}
+.card .flex-images .avatar {
+  width: 65%;
+  border-radius: 5px;
+  position: absolute;
+  top: 30px;
+}
+.card .flex-images .icons-div {
+  background-image: linear-gradient(to right, rgb(123, 126, 123), rgb(233, 233, 233));
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  gap: 25px;
+  position: absolute;
+  top: 89%;
+}
+.card .flex-images .icon {
+  width: max(10px, 0.7vw);
+}
+.card .flex-text {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.card .flex-text .quotes {
+  width: 70px;
+  position: absolute;
+  top: -10px;
+}
+.card .flex-text p {
+  font-size: max(18px, 2.2vw);
+  color: #202047;
+}
+.card .flex-text h6 {
+  margin: 0px;
+  font-size: 15px;
+}
+.card .flex-text .name {
+  color: #202047;
+}
+.card .flex-text .role {
+  color: #b9b9ce;
+}
+
+.curve {
+  position: relative;
+  left: -15%;
+  bottom: 0px;
+  width: 90%;
+  max-width: 600px;
+}
+
+@media (width > 800px) {
+  .card {
+    margin-top: none;
+    flex-direction: row;
+    max-width: none;
+  }
+  .card .flex-images {
+    order: 2;
+  }
+  .card .flex-images .icons-div {
+    left: 30%;
+  }
+  .card .flex-text {
+    order: 1;
+    text-align: left;
+    width: 50%;
+    position: relative;
+    left: 10%;
+    display: inline;
+  }
+  .card .flex-text .quotes {
+    left: 15%;
+  }
+  .card .flex-text h6 {
+    float: left;
+    margin: 5px;
+  }
+  .curve {
+    position: absolute;
+    left: 0px;
+    bottom: -8%;
+  }
+}/*# sourceMappingURL=main.css.map */

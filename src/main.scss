@@ -1,0 +1,115 @@
+.card {
+  margin-top: max(40px, 2vw);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  .flex-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .bg-image {
+      width: 80%;
+      height: auto;
+    }
+    .avatar {
+      width: 65%;
+      border-radius: 5px;
+      position: absolute;
+      top: 30px;
+    }
+    .icons-div {
+      background-image: linear-gradient(
+        to right,
+        rgb(123, 126, 123),
+        rgb(233, 233, 233)
+      );
+      padding: 10px;
+      border-radius: 20px;
+      display: flex;
+      gap: 25px;
+      position: absolute;
+      top: 89%;
+    }
+    .icon {
+      width: max(10px, 0.7vw);
+    }
+  }
+
+  .flex-text {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    .quotes {
+      width: 70px;
+      position: absolute;
+      top: -10px;
+    }
+    p {
+      font-size: max(18px, 2.2vw);
+      color: #202047;
+    }
+    h6 {
+      margin: 0px;
+      font-size: 15px;
+    }
+    .name {
+      color: #202047;
+    }
+    .role {
+      color: #b9b9ce;
+    }
+  }
+}
+
+.curve {
+  position: relative;
+  left: -15%;
+  bottom: 0px;
+  width: 90%;
+  max-width: 600px;
+}
+
+@media (width > 800px) {
+  .card {
+    margin-top: none;
+    flex-direction: row;
+    max-width: none;
+    .flex-images {
+      order: 2;
+      .icons-div {
+        left: 30%;
+      }
+    }
+    .flex-text {
+      order: 1;
+      text-align: left;
+      width: 50%;
+      position: relative;
+      left: 10%;
+      display: inline;
+      .quotes {
+        left: 15%;
+      }
+      h6 {
+        float: left;
+        margin: 5px;
+      }
+    }
+  }
+  .curve {
+    position: absolute;
+    left: 0px;
+    bottom: -8%;
+  }
+}
